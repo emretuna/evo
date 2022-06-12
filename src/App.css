@@ -1,0 +1,131 @@
+.wallet-adapter-button {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: DM Sans, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 24px;
+}
+.wallet-adapter-button {
+  height: 40px !important;
+  padding: 0 45px !important;
+}
+.wallet-adapter-button-trigger {
+  background-color: rgba(138, 57, 225, .2) !important;
+  border: 1px solid #8a39e1 !important;
+  border-radius: 19px !important;
+  box-shadow: 0 0 31px 0 rgba(138, 57, 225, .35);
+  color: #fff !important;
+  font-family: Clash Display, sans-serif !important;
+  font-size: 16px !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  letter-spacing: .42px !important;
+  line-height: 1.19 !important;
+}
+.logo{
+      border-right: 1.5px solid #fff;
+      margin-top: 5px;
+      margin-right: 10px;
+}
+.social-icon {
+  width: 1.5rem;
+  margin-right: 10px;
+}
+.slogan{
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.section-evolve {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: url("assets/wellback.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.parent-evolve-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 940px;
+  max-width: 100%;
+}
+
+.mmetimage {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 4em;
+}
+
+.mmetimage img {
+  width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.parent-evolve-box h1 {
+  color: #FFFFFF;
+  font-size: 4.44em;
+  line-height: 120%;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.parent-evolve-box p {
+  color: #FFFFFF;
+  font-size: 1.34em;
+  line-height: 120%;
+  text-align: center;
+}
+
+.btn-evolve {
+  margin-top: 1em;
+  padding: 0.6em 1.47em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #FFB703;
+  border-radius: 100px;
+  background-color: #ffd;
+  color: #161616;
+  font-size: 1.3em;
+  font-weight: 600;
+  background-color: #FFB703;
+  box-shadow: rgb(255, 183, 3) 0px 0px 200px;
+}
+
+.btn-evolve:focus {
+  outline: none;
+}
+
+.wrapper-evolve {
+  display: flex;
+  justify-content: center;
+  padding-top: 6.94em;
+  padding-bottom: 6.94em;
+}
+
+.bottom-page-text p {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.bottom-page-text {
+  margin-top: 90px;
+}
