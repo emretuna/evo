@@ -18,7 +18,10 @@ function EvolveModal(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          <h1>Evolve Your <br />Salagons</h1>
+          <h1>
+            Evolve Your <br />
+            Salagons
+          </h1>
           <p>Select Your Salagons that will undergo Evolution</p>
         </Modal.Title>
       </Modal.Header>
@@ -79,7 +82,7 @@ function EvolveModal(props) {
           </div>
           <div class="overflow-scroll">
             <div class="middle-section-right">
-              <div class="middle-box">
+              <div class="middle-box overflow-scroll h-50">
                 <h6>Body</h6>
                 <span>
                   <strong>%40</strong> Legend
@@ -91,7 +94,7 @@ function EvolveModal(props) {
                   <strong>%20</strong> Mytcial
                 </span>
               </div>
-              <div class="middle-box">
+              <div class="middle-box overflow-scroll h-50">
                 <h6>Costumes</h6>
                 <span>
                   <strong>%50</strong> Alchemist-01
@@ -100,7 +103,7 @@ function EvolveModal(props) {
                   <strong>%50</strong> Black Leather-01
                 </span>
               </div>
-              <div class="middle-box">
+              <div class="middle-box overflow-scroll h-50">
                 <h6>Costumes</h6>
                 <span>
                   <strong>%50</strong> Alchemist-01
@@ -109,7 +112,7 @@ function EvolveModal(props) {
                   <strong>%50</strong> Black Leather-01
                 </span>
               </div>
-              <div class="middle-box">
+              <div class="middle-box overflow-scroll h-50">
                 <h6>Costumes</h6>
                 <span>
                   <strong>%50</strong> Alchemist-01
@@ -118,7 +121,7 @@ function EvolveModal(props) {
                   <strong>%50</strong> Black Leather-01
                 </span>
               </div>
-              <div class="middle-box">
+              <div class="middle-box overflow-scroll h-50">
                 <h6>Costumes</h6>
                 <span>
                   <strong>%50</strong> Alchemist-01
@@ -127,7 +130,7 @@ function EvolveModal(props) {
                   <strong>%50</strong> Black Leather-01
                 </span>
               </div>
-              <div class="middle-box">
+              <div class="middle-box overflow-scroll h-50">
                 <h6>Costumes</h6>
                 <span>
                   <strong>%50</strong> Alchemist-01
@@ -136,7 +139,7 @@ function EvolveModal(props) {
                   <strong>%50</strong> Black Leather-01
                 </span>
               </div>
-              <div class="middle-box">
+              <div class="middle-box overflow-scroll h-50">
                 <h6>Costumes</h6>
                 <span>
                   <strong>%50</strong> Alchemist-01
@@ -145,7 +148,7 @@ function EvolveModal(props) {
                   <strong>%50</strong> Black Leather-01
                 </span>
               </div>
-              <div class="middle-box">
+              <div class="middle-box overflow-scroll h-50">
                 <h6>Costumes</h6>
                 <span>
                   <strong>%50</strong> Alchemist-01
