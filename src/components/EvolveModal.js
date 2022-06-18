@@ -6,6 +6,7 @@ import iconstatus from "../assets/icon-status.png";
 import monster from "../assets/monster.png";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
+import LoadingButton from "./UI/LoadingButton";
 
 function EvolveModal(props) {
   return (
@@ -16,7 +17,7 @@ function EvolveModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
+      <Modal.Header>
         <Modal.Title id="contained-modal-title-vcenter">
           <h1>
             Evolve Your <br />
@@ -26,6 +27,11 @@ function EvolveModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        <div className="text-center">
+          <LoadingButton>
+            <span>Progress 1 of 3</span>
+          </LoadingButton>
+        </div>
         <div class="row mb-3 px-1">
           <div class="col-6">
             <div class="dropdown dropdown-metagon">

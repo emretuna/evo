@@ -2,8 +2,7 @@ import React from "react";
 import { Modal } from "react-bootstrap";
 import Metagon from "../assets/Metagon1.png";
 import MiniMonster from "../assets/mini-monster.png";
-import "../components/ResultsModal.css"
-
+import "../components/ResultsModal.css";
 
 function QuestionsModal(props) {
   return (
@@ -14,9 +13,11 @@ function QuestionsModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
+      <Modal.Header>
         <Modal.Title id="contained-modal-title-vcenter">
-          <h1>Your Salagons <br /> Evolved!</h1>
+          <h1>
+            Your Salagons <br /> Evolved!
+          </h1>
           <p>You can see your new Metagon at the bottom</p>
         </Modal.Title>
       </Modal.Header>
